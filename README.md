@@ -1,4 +1,4 @@
-## Onion Server
+## Mail Server
 
 Setup for a server hosting Postfix service based on Ubuntu 22.04 server freshly installed and using Python as mailer to blast the email.
 
