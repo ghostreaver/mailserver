@@ -26,12 +26,6 @@ sudo apt-get -y remove && sudo apt-get -y autoremove
 sudo apt-get -y clean && sudo apt-get -y autoclean
 ```
 
-Reboot server
-
-```shell
-sudo reboot now
-```
-
 Disable error reporting
 
 ```shell
@@ -80,10 +74,22 @@ sudo apt-get -y install python3-flask python3-future python3-geoip python3-httpl
 sudo ln -s /usr/bin/python3 /usr/bin/python
 ```
 
-Reboot server
+Install `Simple Mailer`
 
 ```shell
-sudo reboot now
+cd $HOME
+git clone https://github.com/ghostreaver/simplemailer
+```
+
+To use `Simple Mailer`, simply run the following command
+
+```shell
+cd simplemailer
+python simplemailer.py
 ```
 
 * * *
+
+#### Conclusion
+
+We can now send our email using **Simple Mailer** or installing any additional tool such as `sendemail`.
