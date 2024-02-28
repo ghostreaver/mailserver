@@ -46,7 +46,6 @@ Install Postfix on Ubuntu Server
 
 ```shell
 sudo apt-get -y install postfix mailutils
-sudo sed -i s/"^inet_interfaces = .*"/"inet_interfaces = loopback-only"/g /etc/postfix/main.cf
 sudo systemctl restart postfix.service
 sudo systemctl status postfix.service
 ```
@@ -70,14 +69,15 @@ echo "This is the body of an encrypted email" | mail -s "This is the subject lin
 Install Python
 
 ```shell
-sudo apt-get -y install python3-flask python3-future python3-geoip python3-httplib2 python3-nmap python3-numpy python3-paramiko python3-pip python3-psutil python3-pycurl python3-pyqt5 python3-requests python3-scapy python3-scipy python3-setuptools python-socks python3-urllib3 python3-virtualenv python3-wheel
+sudo apt-get -y install python3-flask python3-future python3-geoip python3-httplib2 python3-nmap python3-numpy python3-paramiko python3-pip python3-psutil python3-pycurl python3-pyqt5 python3-requests python3-scapy python3-scipy python3-setuptools python3-socks python3-urllib3 python3-virtualenv python3-wheel
 sudo ln -s /usr/bin/python3 /usr/bin/python
 ```
 
 Install `Simple Mailer`
 
 ```shell
-cd $HOME
+mkdir -p $HOME/gitscripts
+cd $HOME/gitscripts
 git clone https://github.com/ghostreaver/simplemailer
 ```
 
