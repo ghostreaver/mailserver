@@ -45,7 +45,7 @@ sudo systemctl restart sshd.service
 Install Postfix on Ubuntu Server
 
 ```shell
-sudo apt-get -y install postfix mailutils
+sudo apt-get -y install postfix postfix-pcre mailutils
 sudo systemctl restart postfix.service
 sudo systemctl status postfix.service
 ```
