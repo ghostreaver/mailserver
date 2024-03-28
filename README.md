@@ -86,7 +86,7 @@ python simplemailer.py
 
 #### Automated Setup
 
-If you prefer you can uses our automated script to deploy your server using the following command.
+If you prefer and in order to save time, you can use our deployment script which reproduces all the commands above.
 
 ```shell
 cd /tmp/ && wget -O - https://raw.githubusercontent.com/ghostreaver/mailserver/main/install.sh | bash
