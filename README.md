@@ -1,6 +1,6 @@
 ## Mail Server
 
-Setup for a server hosting Postfix service based on Ubuntu 22.04 server freshly installed and using Python as mailer to blast the email.
+Setup for a server hosting Postfix service on Ubuntu 22.04 server freshly installed and using Python as mailer.
 
 * * *
 
