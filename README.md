@@ -4,6 +4,16 @@ Setup for a server hosting Postfix service on Ubuntu 22.04 server freshly instal
 
 * * *
 
+#### Change the user password
+
+Change user password
+
+```shell
+passwd ${USER}
+```
+
+* * *
+
 #### Prepare the environment
 
 Change user password
@@ -80,6 +90,12 @@ To use `Simple Mailer`, simply run the following command
 ```shell
 cd simplemailer
 python simplemailer.py
+```
+
+Reboot server
+
+```shell
+sudo reboot now
 ```
 
 * * *
