@@ -1,9 +1,5 @@
 #!/bin/bash
 
-## Change user password
-## --------------------
-passwd ${USER}
-
 ## Configure APT sources
 ## ---------------------
 sudo add-apt-repository -y main && sudo add-apt-repository -y restricted && sudo add-apt-repository -y universe && sudo add-apt-repository -y multiverse
@@ -50,3 +46,7 @@ sudo ln -s /usr/bin/python3 /usr/bin/python
 mkdir -p $HOME/gitscripts
 cd $HOME/gitscripts
 git clone https://github.com/ghostreaver/simplemailer
+
+## Reboot server
+## -------------
+sudo reboot now
