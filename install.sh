@@ -45,7 +45,7 @@ sudo ln -s /usr/bin/python3 /usr/bin/python
 ## -----------------------
 mkdir -p $HOME/gitscripts
 cd $HOME/gitscripts
-git clone https://github.com/ghostreaver/simplemailer
+git clone https://github.com/neoslab/simplemailer
 
 ## Reboot server
 ## -------------

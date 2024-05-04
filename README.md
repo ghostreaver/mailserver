@@ -76,7 +76,7 @@ Install `Simple Mailer`
 ```shell
 mkdir -p $HOME/gitscripts
 cd $HOME/gitscripts
-git clone https://github.com/ghostreaver/simplemailer
+git clone https://github.com/neoslab/simplemailer
 ```
 
 To use `Simple Mailer`, simply run the following command
@@ -99,7 +99,7 @@ sudo reboot now
 If you prefer and in order to save time, you can use our deployment script which reproduces all the commands above.
 
 ```shell
-cd /tmp/ && wget -O - https://raw.githubusercontent.com/ghostreaver/mailserver/main/install.sh | bash
+cd /tmp/ && wget -O - https://raw.githubusercontent.com/neoslab/mailserver/main/install.sh | bash
 ```
 
 * * *
